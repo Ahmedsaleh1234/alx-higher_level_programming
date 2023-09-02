@@ -1,0 +1,51 @@
+# The ``0-add_integer`` module
+============================================
+How to use 0-add_integer.py
+============================================
+
+This library has one function called ``add_integer()``
+
+Numbers
+=======
+
+``add_integer()`` returns the sum of its arguments. The default argument
+for b is 98. For numbers, that value is equivalent to using the ``+``
+operator:
+
+
+Importing the function add_intger
+	>>> add = __import__("0-add_integer").add_integer
+
+adding an integer and integer
+		>>> add(1,2)
+		3
+
+adding an integer and float
+		>>> add(1, 2.1)
+		3
+
+adding a float and integer
+		>>> add(2.1, 1)
+		3
+
+adding a float and a float
+		>>> add(2.1, 2.1)
+		4
+
+adding a bool and a float
+		>>> add(True, 2.1)
+		3
+
+adding a bool and intger
+		>>> add(True, 2)
+		3
+
+adding a bool and a bool
+		>>> add(True, True)
+		2
+
+adding a bool and a bool
+		>>> add(False, False)
+		0
+
+
