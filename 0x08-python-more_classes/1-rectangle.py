@@ -5,7 +5,13 @@
 
 
 class Rectangle:
-    """class Rectangle"""
+     """
+    Class that defines properties of rectangle by: (based on 0-rectangle.py).
+
+    Attributes:
+        width (int): width of the rectangle.
+        height (int): height of the rectangle.
+    """
     def __init__(self, width=0, height=0):
         """a function that called otomataclly
 
