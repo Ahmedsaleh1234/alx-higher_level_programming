@@ -9,4 +9,3 @@ else
 {
 	console.log("Arguments found");
 }
-
