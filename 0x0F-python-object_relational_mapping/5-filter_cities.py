@@ -13,7 +13,7 @@ if __name__ == "__main__":
     ORDER BY cities.id", (argv[4],))
     rows = cur.fetchall()
     j = []
-    for i in  rows:
+    for i in rows:
         j.append(i[0])
     print(", ".join(j))
     cur.close()
