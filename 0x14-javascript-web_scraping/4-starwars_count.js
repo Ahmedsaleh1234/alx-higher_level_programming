@@ -1,7 +1,7 @@
 #!/usr/bin/node
 const request = require('request');
 let count = 0;
-request(process.argv[2], function (err, req, body) {
+request.get(process.argv[2], function (err, req, body) {
   if (!err) {
     body = JSON.parse(body).results;
     for (let i = 0; i < body.length; i++) {
